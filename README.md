@@ -1,7 +1,7 @@
 # 2025_PFLIGHT_KalmanFilter
 ### AIによる自動生成
 
-# Kalmanフィルターモジュール
+# カルマンフィルターモジュール
 
 ## 概要
 
