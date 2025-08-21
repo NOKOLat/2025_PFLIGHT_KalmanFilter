@@ -5,7 +5,7 @@
 
 ## 概要
 
-このモジュールは、任意次元のカルマンフィルターを簡単に利用できるC++クラス [`KalmanFiler`](kalman.hpp) を提供します。  
+このモジュールは、任意次元のカルマンフィルターを簡単に利用できるC++クラス [`KalmanFiler`](kalman_filter.hpp) を提供します。  
 状態遷移行列や観測行列、ノイズパラメータなどを柔軟に設定でき、組み込み用途にも適した設計です。
 
 ## 主な機能
@@ -17,7 +17,7 @@
 
 ## クラス構成
 
-- [`KalmanFilter`](Inc/kalman.hpp)
+- [`KalmanFilter`](kalman_filter.hpp)
   - `void Init(uint8_t state_size, uint8_t obs_size);`  
     状態数・観測数を指定して初期化
   - `void Update();`  
