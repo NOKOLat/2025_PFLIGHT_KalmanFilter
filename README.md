@@ -11,13 +11,13 @@
 ## 主な機能
 
 - 任意次元のカルマンフィルター（最大4次元まで拡張可能）
-- 行列演算は [`matrix.h`](Inc/matrix.h) を利用
+- 行列演算は [`matrix.hpp`](Inc/matrix.hpp) を利用
 - 状態遷移行列・観測行列・ノイズパラメータを動的に設定可能
 - 1次元～多次元の状態推定に対応
 
 ## クラス構成
 
-- [`Kalman`](Inc/kalman.h)
+- [`KalmanFilter`](Inc/kalman.hpp)
   - `void Init(uint8_t state_size, uint8_t obs_size);`  
     状態数・観測数を指定して初期化
   - `void Update();`  
@@ -31,7 +31,7 @@
 ### 1. インスタンス生成・初期化
 
 ```cpp
-Kalman kalman;
+KalmanFilter kalman;
 kalman.Init(2, 1); // 状態2次元・観測1次元
 ```
 
