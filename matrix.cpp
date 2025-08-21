@@ -4,8 +4,8 @@
  *  Created on: Aug 15, 2025
  *      Author: takut
  */
-#include "matrix.h"
 #include <math.h>
+#include <matrix.hpp>
 
 static uint8_t MatPrecheck(const MATRIX* A, const MATRIX* B, MATRIX* C);
 static uint8_t MatValid(const MATRIX* M);

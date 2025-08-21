@@ -5,8 +5,8 @@
  *      Author: takut
  */
 
-#include "kalman.h"
-#include <string.h>
+#include <kalman.hpp>
+#include <cstdint>
 
 void Kalman::Init(uint8_t state_size, uint8_t obs_size) {
 
